@@ -10,34 +10,6 @@ The AI-Powered NPC Generator API is designed to create detailed and dynamic non-
 - **Export Options**: Export NPC details in JSON, YAML, or other formats.
 - **Interactive API**: Easily integrate with games using RESTful endpoints.
 
-## **Project Structure**
-```
-ai_npc_generator/
-├── app/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── config.py
-│   ├── database.py
-│   ├── models/
-│   │   ├── __init__.py
-│   │   ├── npc.py
-│   ├── schemas/
-│   │   ├── __init__.py
-│   │   ├── npc.py
-│   ├── routers/
-│   │   ├── __init__.py
-│   │   ├── npc.py
-│   ├── services/
-│   │   ├── __init__.py
-│   │   ├── npc_service.py
-│   ├── utils/
-│   │   ├── __init__.py
-│   │   ├── ai_generator.py
-├── .env
-├── requirements.txt
-├── README.md
-```
-
 ### **Key Components**
 1. **`main.py`**: The entry point for the FastAPI application.
 2. **`config.py`**: Application configuration (e.g., database URL).
